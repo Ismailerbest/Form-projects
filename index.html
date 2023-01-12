@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="form-container">
+        <a class="logo" href="#"><img src="./images/Logo.png" alt="grey circle"></a>
+        <div class="form-left-box">
+            <h1>Welcome to Design Community </h1>
+            <p>Already have an ccount? <a href="http://">Log in </a> </p>
+
+            <form action="">
+                <!-- Input field for email -->
+                <label for="email" class="form-label-password">Email <span class="form-password-span">Hide</span>
+                </label>
+                <input class="form-input" id="email" type="email">
+                <!-- Input field for username -->
+                <label for="username" class="form-label-password">Username <span class="form-password-span">Hide</span>
+                </label>
+                <input class="form-input" id="username" type="text">
+                <!-- Input field for password -->
+                <label for="password" class="form-label-password">Password <span class="form-password-span">Hide</span>
+                </label>
+                <input class="form-label1" id="password" type="password">
+                <!-- List of password req -->
+                <ul class="password-req-list">
+                    <li class="password-req-list-item"> <span>&#9676;</span> Use 8 or more characters</li>
+                    <li class="password-req-list-item"> <span>&#9676;</span> One Uppercase character</li>
+                    <li class="password-req-list-item"> <span>&#9676;</span> One lowercase character</li>
+                    <li class="password-req-list-item"> <span>&#9676;</span> One special character</li>
+                    <li class="password-req-list-item"> <span>&#9676;</span> One number</li>
+
+                </ul>
+                <!-- generic div for checkbox -->
+
+                <div class="checkbox-text">
+                    <input id="checkbox" type="checkbox">
+
+                    <label for="checkbox" class="checkbox-label">I want to receive emails about the product, feature
+                        updates, events, and <br>
+                        marketing
+                        promotions.</label>
+                </div>
+
+            </form>
+
+            <p class="form-left-box-p">By creating an account, you agree to the <a href="#">Terms of use</a> and <a
+                    href="#">Privacy Policy.</a>
+            </p>
+
+            <button class="form-left-box-button">Create an ccount</button>
+            <p>Already have an ccount? <a href="#">Log in</a> </p>
+        </div>
+        <img class="form-container-img" width="690" src="./images/sebastian-svenson-d2w-_1LJioQ-unsplash 1.png" alt="">
+    </section>
+
+</body>
+
+</html>
